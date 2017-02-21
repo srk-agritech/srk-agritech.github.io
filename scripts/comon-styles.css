@@ -1,0 +1,647 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background-color: #558ED5;
+	background-image: url();
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+h4 {
+	margin: 0px;
+	font-weight: bold;
+	color: #822B00;
+	height: 22px;
+	width: 600px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFA928;
+}
+
+#holder {
+	background-color: #FFFFFF;
+	width: 913px;
+	border: 1px solid #D5DEC0;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(/scripts/border-radius.htc);
+	margin-top: 8px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding-right: 26px;
+	padding-left: 26px;
+	padding-top: 35px;
+	padding-bottom: 26px;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+	height: auto;
+	width: auto;
+	position: relative;
+}
+#srk-agritech-logo {
+	float: center;
+	height: auto;
+	width: auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+#navigation {
+	width: 100%;
+	border-top-width: 1px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #e3e3e3;
+	border-bottom-color: #e3e3e3;
+	height: 29px;
+	clear: both;
+}
+#home-flash {
+	clear: both;
+	height: 264px;
+	width: 913px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+#home-content {
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+}
+#banner {
+	height: 56px;
+	width: 131px;
+	float: left;
+	margin: 30px;
+	line-height: 8px;
+	padding-right: 6px;
+}
+#banner  img {
+	float: left;
+	padding-right: 12px;
+}
+#Increasing-productivity {
+	height: 150px;
+	width: 330px;
+	float: left;
+	margin-left: 30px;
+	line-height: 16px;
+}
+#Featured-Product {
+	height: 150px;
+	width: 230px;
+	float: left;
+	margin-right: 15px;
+	line-height: 16px;
+}
+#latest-news {
+	height: 110px;
+	width: 270px;
+	float: right;
+}
+
+a.more {
+	font-size: 12px;
+	font-weight: bold;
+	color: #9ace00;
+	background-image: url(/images/morearrow.gif);
+	width: 50px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 35px 6px;
+	display: inline-block;
+	margin-top:8px;
+}
+a.more:hover {
+	color: #AB7C3D;
+	text-decoration: underline;
+}
+
+#latest-news a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#latest-news a:hover {
+	color: #9ace00;
+	text-decoration: none;
+}
+
+#click2plant-link {
+	width: auto;
+	text-align: center;
+	height: auto;
+	float: right;
+}
+img.border {
+	background-color: #FFFFFF;
+	display: block;
+	border: 1px solid #CCCCCC;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+img.border-image {
+	text-decoration: none;
+	border: 10px solid #E5E5E5;
+}
+img.border-image-left {
+	text-decoration: none;
+	border: 7px solid #E5E5E5;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+img.border-image-right {
+	text-decoration: none;
+	float: right;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	border-top-width: 7px;
+	border-right-width: 7px;
+	border-bottom-width: 7px;
+	border-left-width: 7px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #E5E5E5;
+	border-right-color: #E5E5E5;
+	border-bottom-color: #E5E5E5;
+	border-left-color: #E5E5E5;
+}
+#footer {
+	width: 964px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	overflow: hidden;
+}
+#Srk-agritech-it {
+	float: left;
+	width: 255px;
+}
+#copyright {
+	float: right;
+	width: auto;
+	padding-top: 12px;
+	color: #FFFFFF;
+	margin-right: 8px;
+}
+#middle {
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+#left-navigation {
+	float: left;
+	width: 192px;
+	overflow: hidden;
+	margin-top: 20px;
+	background-image: url(/images/dotted-line.gif);
+	background-repeat: no-repeat;
+	background-position: 191px top;
+	color: #666666;
+}
+#right-area {
+	width: 700px;
+	float: right;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#header-image {
+	height: 170px;
+	width: 700px;
+	overflow: hidden;
+}
+#sec-name {
+	width: 440px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+#breadcrumbs {
+	height: 30px;
+	width: 680px;
+	position: relative;
+	padding-top: 12px;
+	text-align: right;
+	color: #999999;
+	padding-right: 20px;
+}
+#content {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#content p {
+	padding-top: 16px;
+}
+a.path {
+	font-size: 11px;
+	color: #437F2A;
+	text-decoration: none;
+}
+a.path:hover {
+	font-size: 11px;
+	color: #996600;
+	text-decoration: underline;
+}
+
+ul.leftmenu li {
+	list-style-type: none;
+	color: #999999;
+	background-image: none;
+}
+
+ul.leftmenu a {
+	background-color: #FFF;
+	display: block;
+	padding-left:24px;
+	clear: both;
+	float: left;
+	width: 150px;
+	list-style-type: none;
+	color: #666666;
+	text-decoration: none;
+	background-image: url(/SpryAssets/SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+ul.leftmenu a:hover {
+	background-color: #9ece16;
+	display: block;
+	padding-left:24px;
+	clear: both;
+	float: left;
+	width: 150px;
+	list-style-type: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	background-image: url(/SpryAssets/SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+}
+.highlight {
+	
+	font-weight: normal;
+	color: #660000;
+	background-color: #fdefbf;
+	font-size: 12px;
+	background-image: url(/images/highlight-bg.gif);
+	background-repeat: repeat-x;
+	border: 1px dotted #993300;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	text-align:left;
+}
+a.url {
+	font-size: 12px;
+	color: #663300;
+	height: 24px;
+	width: 80px;
+	padding: 12px;
+	text-decoration: none;
+	background-image: url(/images/morearrow.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 17px;
+}
+a.url:hover {
+	font-size: 12px;
+	color: #7f2525;
+	background-image: url(/images/menu-bk.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+	width: 80px;
+	background-position: center;
+	text-decoration: none;
+	padding: 12px;
+}
+#content h2 {
+	margin: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003300;
+}
+
+.table_style 
+{
+	border:1px #FFFFFF solid;;
+	padding:5px;
+	width:100%;
+}
+.table_style th
+{
+	background-image:url(/images/table-head.jpg);
+	padding: 5px;
+	font-family:arial;
+	font-size:12px;
+	font-weight: bold;
+	line-height: 18px;
+	color:#ffffff;
+	text-decoration:none;
+	height: 30px;
+	border:1px #FFFFFF solid;
+}
+.table_style td
+{
+	background-color:#eed29f;
+	padding: 5px;
+	font-family:arial;
+	font-size:12px;
+	font-weight: normal;
+	line-height: 18px;
+	color:#000000;
+	text-decoration:none;
+	border:1px #FFFFFF solid;;
+	
+}
+.table_style td a:link
+{
+	color:#254480;
+	text-decoration:none;
+}
+.table_style td a:visited
+{
+	color:#254480;
+	text-decoration:none;
+}
+.table_style td a:active
+{
+	color:#254480;
+	text-decoration:none;
+}
+.table_style td a:hover
+{
+	color:#254480;
+	text-decoration:none;
+}
+
+a.expand {
+	font-size: 11px;
+	color: #999999;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bold;
+}
+a.expand:hover {
+	font-size: 11px;
+	color: #999999;
+	text-decoration: underline;
+	line-height: normal;
+	font-weight: bold;
+}
+
+li.new {
+	margin: 0px;
+	color: #000000;
+	padding-left: 18px;
+	list-style-position: outside;
+	line-height: 20px;
+	background-image: url(images/roundbullet.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+	list-style-type: none;
+}
+li.newhighlight {
+	margin: 0px;
+	font-weight: normal;
+	color: #660000;
+	padding-left: 15px;
+	list-style-position: outside;
+	line-height: 18px;
+	background-image: url(/images/li-bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+	list-style-type: none;
+}
+
+a.menulink:hover {
+	color: #660000;
+	text-decoration: underline;
+}
+a.menulink {
+	color: #000000;
+	text-decoration: none;
+}
+#content  a {
+	color: #9ece16;
+	text-decoration: none;
+}
+#latest-news li {
+	padding-left: 18px;
+	list-style-type: none;
+	background-image: url(/images/roundbullet.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	padding-bottom: 8px;
+}
+#left-navigation h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9ece16;
+}
+
+img.border {
+	background-color: #FFFFFF;
+	display: block;
+	border: 1px solid #CCCCCC;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#content a.expandBar {
+	color: #333333;
+	display: block;
+	padding-left: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #669900;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(/SpryAssets/SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 12px;
+	background-color: #F8FBEE;
+}
+#content a.expandBar:hover {
+	color: #FFFFFF;
+	background-color: #9cce00;
+	display: block;
+	padding-left: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	background-image: url(/SpryAssets/SpryMenuBarRightHover.gif);
+	background-position: 12px;
+}
+
+.highlights {
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #59810E;
+	padding-left: 30px;
+	padding-top: 40px;
+	background-color: #e2f7c8;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	border: 1px solid #538637;
+	background-image: url(/images/highlights-bg.jpg);
+	background-repeat: repeat-x;
+	text-align: left;
+	line-height: 20px;
+}
+#content ul li {
+	padding-left: 18px;
+	list-style-type: none;
+	background-image: url(/images/roundbullet.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	padding-bottom: 8px;
+	text-align: left;
+	margin-top: 12px;
+}
+
+#content h3 {
+	padding-left: 18px;
+	list-style-type: none;
+	background-image: url(/SpryAssets/SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	padding-bottom: 8px;
+	margin-bottom:6px;
+	margin-top:6px;
+	text-align: left;
+	font-size:12px;
+}
+#applyform  input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height:25px;
+	width:280px;
+	color: #66CC33;
+border: 1px solid #D5DEC0;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(/scripts/border-radius.htc);
+	padding-left:12px;
+	padding-right:12px;
+}
+#applyform  textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height:200px;
+	width:280px;
+	color: #66CC33;
+border: 1px solid #D5DEC0;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(/scripts/border-radius.htc);
+	padding:12px;
+}
+#applyform  input.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height:25px;
+	width:100px;
+	color: #FFF;
+	background:#9ece16;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(/scripts/border-radius.htc);
+	padding-left:12px;
+	padding-right:12px;
+}
+#applyform  input.button:hover {
+	background:#CCC;
+}
+
+#content td.leftmenu a {
+	background-color: #FFF;
+	display: block;
+	padding-left:24px;
+	clear: both;
+	float: left;
+	width: 165px;
+	list-style-type: none;
+	color: #666666;
+	text-decoration: none;
+	font-size:11px;
+	background-image: url(/SpryAssets/SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	text-align:left
+}
+#content td.leftmenu a:hover {
+	background-color: #9ece16;
+	display: block;
+	padding-left:24px;
+	clear: both;
+	float: left;
+	width: 165px;
+	list-style-type: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	background-image: url(SpryAssets/SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+}
+#hlmenu {
+	position: absolute;
+	margin-top: 58px;
+	margin-left: 153px;
+	height: 15px;
+	width: 26px;
+	z-index: 999999999;
+	visibility: visible;
+}
