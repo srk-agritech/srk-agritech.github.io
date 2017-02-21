@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Send Us Your Query</title>
+<meta name="keywords" content="Best Quality Seeds, High Yeild, Soil Optimiser, Yeild Optimizer, Sustainable agriculture, Working For Farmers,  increased production" />
+<meta name="description" content="Send your business query regarding dealership and distributorship." />
+<meta name="robots" content="noodp">
+<link rel="canonical" href="http://www.srkagritech.com" /><link rel'alternate' type'application/rss+xml' title' Producing Quality Seed' />
+
+<link href="scripts/comon-styles.css" rel="stylesheet" type="text/css" />
+<script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="scripts/top.js"></script>
+<script type="text/javascript" src="Scripts/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="Scripts/animatedcollapse.js"></script>
+<script language="javascript" type="text/javascript">
+// ========================= Added By Suman Hait Starts ========================= //
+var xmlHttp
+function checkData(str)
+{
+	xmlHttp = getXmlHttpObject()
+	if(xmlHttp == null){return false;}
+	var url = "AJAX.asp"
+	url = url + "?q=" + str
+	url = url + "&rand=" + Math.random()
+	xmlHttp.onreadystatechange = stateChange
+	xmlHttp.open("GET", url, true)
+	xmlHttp.send(null)
+}
+function stateChange()
+{
+	if(xmlHttp.readyState == 4 || xmlHttp.readyState == "complete")
+	{
+		document.getElementById('__DIV_MSG').innerHTML = xmlHttp.responseText;
+		if(xmlHttp.responseText == '')
+		{
+			document.forms['applyform'].submit();
+		}
+	}
+}
+function getXmlHttpObject()
+{
+	var objXMLHttp = null
+	if(window.XMLHttpRequest)
+	{
+		objXMLHttp = new XMLHttpRequest()
+	}
+	else if(window.ActiveXObject)
+	{
+		objXMLHttp = new ActiveXObject("Microsoft.XMLHTTP")
+	}
+	return objXMLHttp
+}
+// ========================= Added By Suman Hait Ends ========================= //
+function validatetsenv()
+{
+	var name=document.applyform.txtname.value;
+	var email=document.applyform.txtemail.value;
+	var phone=document.applyform.txtphone.value;
+	var query=document.applyform.txtquery.value;
+	
+	
+	if(name.search(/\S/) == -1)
+	{
+		alert("Please write your name");
+		document.applyform.txtname.focus();
+		return false;
+	}
+	
+	if(email.search(/\S/) == -1)
+	{
+		alert("Please write your email id");
+		document.applyform.txtemail.focus();
+		return false;
+	}
+	var validEmail = /^([a-zA-Z0-9_'+*$%\^&!\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9:]{2,4})+$/;
+
+if(!validEmail.test(document.getElementById('txtemail').value)) {
+
+alert('Please enter valid email id');
+
+document.getElementById('txtemail').focus();
+
+return false;
+
+}
+	
+	if(phone.search(/\S/) == -1)
+	{
+		alert("Please write your phone / mobile number");
+		document.applyform.txtphone.focus();
+		return false;
+	}
+	if(isNaN(phone))
+	{
+		alert("Please write your phone / mobile number in numerals");
+		document.applyform.txtphone.select();
+		return false;
+	}
+	if(query.search(/\S/) == -1)
+	{
+		alert("Please write your query / comments");
+		document.applyform.txtquery.focus();
+		return false;
+	}
+
+// ========================= Added By Suman Hait Starts ========================= //
+	if(document.getElementById('TxtImgVer').value.search(/\S/) == -1)
+	{
+		alert("Please enter image verification code");
+		document.getElementById('TxtImgVer').focus();
+		return false;
+	}
+	else
+	{
+		checkData(document.getElementById('TxtImgVer').value);
+	}
+	return false;
+	// ========================= Added By Suman Hait Ends ========================= //	
+}
+/*function valid(){
+    window.location.href="post-resume.asp";
+    return false;
+}
+*/
+</script>
+
+</head>
+
+<body>
+<div id="holder">
+<div id="logo"><a href="/"><img src="images/srkaipl-lg.png" alt="SRK AGRITECH INDIA PRIVATE LIMITED" width="827" height="162" border="0" /></a><!--<img id="hlmenu"  src="/images/highlight-down-arrow.gif" width="26" height="15" />--></div>
+
+<div id="navigation">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+  <li style="text-align:center; width:70px"><a class="test" href="/" title="Home">Home</a></li>
+ 
+  <!--Under Section: About Us -->
+  <li style="text-align:center; width:150px"> <a href="#" class="MenuBarItemSubmenu" title="About Us">About Us</a>
+      <ul style="width:150px">
+      <li style="width:150px" ><a href="abtus.htm">About us</a></li>
+      <li style="width:150px"><a href="missionvision.htm">Mission And Vision</a></li>
+       <!--<li style="width:150px"><a href="strategy.htm">Strategy</a></li>
+        <li style="width:150px"><a href="seedprod.htm">Seed Production</a></li>
+         <li style="width:150px"><a href="buinessenvironment.htm">Business Environment</a></li>
+      <li style="width:240px"><a href="">B-Plan</a></li>
+      <li style="width:240px"><a href="">Business Operation </a> </li>
+      <li style="width:240px"><a href="" >Collaboration</a></li>
+      -->
+      </ul>
+  </li>
+  
+  <!--Under Section: Product -->            
+  <li style="text-align:center; width:150px" ><a class="MenuBarItemSubmenu" href="#" title="Product">Products</a>
+      <ul style="width:150px">
+      <li style="width:150px"><a href="soybeanseed.htm">Soybean Seeds </a></li>
+      <li style="width:150px"><a href="wheatseed.htm">Wheat Seeds</a></li>
+      <li style="width:150px"><a href="chickpeaseed.htm">Chickpea(Chana Desi)</a></li>
+      <li style="width:150px"><a href="peagionpeaseed.htm">Peagion Pea</a></li>
+      <li style="width:150px"><a href="moongseed.htm">Moong</a></li>
+      <!--<li style="width:150px"><a href="Vegetableseeds.htm">Vegetable Seed </a></li>
+      <li style="width:150px"><a href="Fodder">Fodder</a></li>-->
+      </ul>
+  </li>
+  
+    
+  <!--Under Section: Organic Products --> 
+  <li style="text-align:center; width:150px"> <a href="service.htm" title="Service">Service</a>
+          </li>
+  <li style="text-align:center; width:150px"> <a href="quality.htm" class="MenuBarItemSubmenu" title="Quality">Quality</a> 
+   </li>
+   
+   <!--Under Section: Contact Us --> 
+   <li style="text-align:center; width:90px"> <a class="test" href="/contact.htm" title="Contact Us">Contact Us</a></li>
+   </ul>
+  <div id="click2plant-link">
+    <ul  style="width:150px" class="MenuBarHorizontal">
+      <li  style="width:150px"><a href="http://www.click2plant.com" target="_blank"  style=" text-align:center">Plant a Tree for Free!!!</a></li>
+    </ul>
+    </div>
+  </div>
+<div id="middle">
+  <div id="left-navigation">
+  <h1>&quot;BE A PART OF NEXT GREEN REVOLUTION&quot;</h1>
+  <p>&nbsp;</p>
+  <p><strong>Please Send Us Your Query Regarding Distributorship.   </strong>
+  <p>
+  <p>    
+  <p>
+  <p>    
+  <p>&nbsp;</p></p>
+  
+</div>
+<div id="right-area">
+  <div id="breadcrumbs"><strong>You are in: </strong><a class='path' href='/'>Home</a> &gt; Contact us &gt; Business Enquiry</div>
+ <div id="content">
+   <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','400','height','20','title','Business Enquiry','src','/images/home-header-big','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','flashvars','mainhead=Business Enquiry','menu','false','wmode','transparent','movie','/images/home-header-big' ); //end AC code
+     </script>
+   <noscript>
+   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="400" height="20" title="sadada">
+     <param name="movie" value="/images/home-header-big.swf" />
+     <param name="quality" value="high" />
+     <param name="FlashVars" value="mainhead=Business Enquiry" />
+     <param name="menu" value="false" />
+     <param name="wmode" value="transparent" />
+     <embed src="/images/home-header-big.swf" width="400" height="20" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" flashvars="mainhead=Business Enquiry " menu="false" wmode="transparent"></embed>
+   </object>
+   </noscript>
+   <br />
+   <br />
+   <h3>Fields marked with<span class="style3"> *</span> are mandatory </h3>
+            <form id="applyform" name="applyform" method="post" action="contact-form-handler.php" onSubmit="return validatetsenv();">
+              <table border="0" align="center" cellpadding="0" cellspacing="10">
+                <tr>
+                  <td width="37%" align="right"> Name <span class="style3">*</span>: </td>
+                  <td width="63%"><label>
+                    <input name="txtname" type="text" id="txtname" size="35" />
+                  </label></td>
+                </tr>
+                <script language="javascript" type="text/javascript">
+                     
+                       
+                        document.applyform.txtname.focus();
+                     
+                     
+                      </script>
+					  <tr>
+                  <td align="right">Email <span class="style3">*</span>: </td>
+                  <td><input name="txtemail" type="text" id="txtemail" size="35" /></td>
+                </tr>
+                <tr>
+                  <td align="right">Phone / Mobile Number <span class="style3">*</span>: </td>
+                  <td><input name="txtphone" type="text" id="txtphone" size="35" /></td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top">Address : </td>
+                  <td valign="top"><label></label>
+                    <input name="txtaddress" type="text" id="txtaddress" size="35" /></td>
+                </tr>
+                <tr>
+                  <td align="right" valign="top">Query / Comments <span class="style3">*</span>: </td>
+                  <td valign="top"><textarea name="txtquery" id="txtquery" cols="36" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">                </td>
+                  <td valign="top"><input name="button" type="submit" class="button" id="button" value="Submit" />
+                  &nbsp;&nbsp;
+                  <input name="button2" type="reset" class="button" id="button2" value="Reset" />  </td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+        </form>
+            
+     </div>
+</div>
+</div>
+</div>
+<div id="footer">
+  <div id="Srk-Agritech-It"></div>
+<div id="copyright">Optimised for  1024 x 768 pixels screen resolution &nbsp;&nbsp; | &nbsp;&nbsp;<script language="JavaScript" type="text/javascript">
+                <!--
+                document.write('&copy; ' );
+                document.write(new Date().getFullYear());
+                document.write(' SRK AGRITECH INDIA PRIVATE LIMITED - All Rights Reserved');
+                //-->
+          </script>&nbsp;&nbsp; | &nbsp;&nbsp;<a style="color:#FFFFFF; text-decoration:none" href="/sitemap.asp">Sitemap</a></div>
+</div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>

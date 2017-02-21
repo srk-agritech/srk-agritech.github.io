@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Srk Agritech India Pvt. Ltd.</title>
+<meta name="keywords" content="certified, seed, beej, gehun, chan, moong, tur, arhar, soybean, dhaan, paddy " />
+<meta name="description" content="please send us your enquiry, feed back to serve you better" />
+<meta name="robots" content="noodp">
+<link rel="canonical" href="http://srkagritech.com/contact.htm" />
+
+<link href="scripts/comon-styles.css" rel="stylesheet" type="text/css" />
+<script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="scripts/top.js"></script>
+<script type="text/javascript" src="Scripts/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="Scripts/animatedcollapse.js"></script>
+<script language="javascript" type="text/javascript">
+// ========================= Added By Suman Hait Starts ========================= //
+var xmlHttp
+function checkData(str)
+{
+	xmlHttp = getXmlHttpObject()
+	if(xmlHttp == null){return false;}
+	var url = "AJAX.asp"
+	url = url + "?q=" + str
+	url = url + "&rand=" + Math.random()
+	xmlHttp.onreadystatechange = stateChange
+	xmlHttp.open("GET", url, true)
+	xmlHttp.send(null)
+}
+function stateChange()
+{
+	if(xmlHttp.readyState == 4 || xmlHttp.readyState == "complete")
+	{
+		document.getElementById('__DIV_MSG').innerHTML = xmlHttp.responseText;
+		if(xmlHttp.responseText == '')
+		{
+			document.forms['applyform'].submit();
+		}
+	}
+}
+function getXmlHttpObject()
+{
+	var objXMLHttp = null
+	if(window.XMLHttpRequest)
+	{
+		objXMLHttp = new XMLHttpRequest()
+	}
+	else if(window.ActiveXObject)
+	{
+		objXMLHttp = new ActiveXObject("Microsoft.XMLHTTP")
+	}
+	return objXMLHttp
+}
+// ========================= Added By Suman Hait Ends ========================= //
+function validatetsenv()
+{
+	var name=document.applyform.txtname.value;
+	var email=document.applyform.txtemail.value;
+	var phone=document.applyform.txtphone.value;
+	var query=document.applyform.txtquery.value;
+	
+	
+	if(name.search(/\S/) == -1)
+	{
+		alert("Please write your name");
+		document.applyform.txtname.focus();
+		return false;
+	}
+	
+	if(email.search(/\S/) == -1)
+	{
+		alert("Please write your email id");
+		document.applyform.txtemail.focus();
+		return false;
+	}
+	var validEmail = /^([a-zA-Z0-9_'+*$%\^&!\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9:]{2,4})+$/;
+
+if(!validEmail.test(document.getElementById('txtemail').value)) {
+
+alert('Please enter valid email id');
+
+document.getElementById('txtemail').focus();
+
+return false;
+
+}
+	
+	if(phone.search(/\S/) == -1)
+	{
+		alert("Please write your phone / mobile number");
+		document.applyform.txtphone.focus();
+		return false;
+	}
+	if(isNaN(phone))
+	{
+		alert("Please write your phone / mobile number in numerals");
+		document.applyform.txtphone.select();
+		return false;
+	}
+	if(query.search(/\S/) == -1)
+	{
+		alert("Please write your query / comments");
+		document.applyform.txtquery.focus();
+		return false;
+	}
+
+// ======================Added By Jiten Agrawal Starts ========================= //
+	if(document.getElementById('TxtImgVer').value.search(/\S/) == -1)
+	{
+		alert("Please enter image verification code");
+		document.getElementById('TxtImgVer').focus();
+		return false;
+	}
+	else
+	{
+		checkData(document.getElementById('TxtImgVer').value);
+	}
+	return false;
+	// =====================Added By jiten Arawal Ends ========================= //	
+}
+/*function valid(){
+    window.location.href="post-resume.asp";
+    return false;
+}
+*/
+</script>
+
+</head>
+
+<body>
+<div id="holder">
+<div id="logo"><a href="/"><img src="images/srkaipl-lg.png" alt="SRK AGRITECH INDIA PRIVATE LIMITED" width="827" height="162" border="0" /></a><!--<img id="hlmenu"  src="/images/highlight-down-arrow.gif" width="26" height="15" />--></div>
+
+<div id="navigation">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+  <li style="text-align:center; width:70px"><a class="test" href="/" title="Home">Home</a></li>
+ 
+  <!--Under Section: About Us -->
+  <li style="text-align:center; width:150px"> <a href="#" class="MenuBarItemSubmenu" title="About Us">WE ARE?</a>
+      <ul style="width:150px">
+      <li style="width:150px" ><a href="abtus.htm">About Us</a></li>
+      <li style="width:150px"><a href="missionvision.htm">Mission And Vision</a></li>
+     <!--  <li style="width:150px"><a href="strategy.htm">Strategy</a></li>
+        <li style="width:150px"><a href="seedprod.htm">Seed Production</a></li>
+         <li style="width:150px"><a href="buinessenvironment.htm">Business Environment</a></li>
+     <!-- <li style="width:240px"><a href="">B-Plan</a></li>
+      <li style="width:240px"><a href="">Business Operation </a> </li>
+      <li style="width:240px"><a href="" >Collaboration</a></li>
+      <li style="width:240px"><a href="" >Emissions, Effluents and Waste Management </a></li>-->
+      </ul>
+  </li>
+  
+  <!--Under Section: Product -->            
+  <li style="text-align:center; width:150px" ><a class="MenuBarItemSubmenu" href="#" title="Product">Products</a>
+      <ul style="width:150px">
+      <li style="width:150px"><a href="soybeanseed.htm">Soybean Seeds </a></li>
+      <li style="width:150px"><a href="wheatseed.htm">Wheat Seeds</a></li>
+      <li style="width:150px"><a href="chickpeaseed.htm">Chickpea(Chana)</a></li>
+      <li style="width:150px"><a href="peagionpeaseed.htm">Peagion Pea</a></li>
+      <li style="width:150px"><a href="moongseed.htm">Moong</a></li>
+      <!--<li style="width:150px"><a href="Vegetableseeds.htm">Vegetable Seed </a></li>
+      <li style="width:150px"><a href="Fodder">Fodder</a></li>-->
+      </ul>
+  </li>
+  
+    
+  <!--Under Section: Services --> 
+  <li style="text-align:center; width:150px"> <a href="service.htm" title="Service">Service</a>
+          </li>
+  <li style="text-align:center; width:150px"> <a href="quality.htm" class="MenuBarItemSubmenu" title="Quality">Quality</a> 
+   </li>
+   
+   <!--Under Section: Contact Us --> 
+   <li style="text-align:center; width:90px"> <a class="test" href="contact.htm" title="Contact Us">Contact Us</a></li>
+   </ul>
+  <div id="click2plant-link">
+    <ul  style="width:150px" class="MenuBarHorizontal">
+      <li  style="width:150px"><a href="http://www.click2plant.com" target="_blank"  style=" text-align:center">Plant a Tree for Free!!!</a></li>
+    </ul>
+    </div>
+  </div>
+<div id="middle">
+<div id="left-navigation">
+  <h1>Contact us
+  </h1>
+  <p>&nbsp;</p>
+  <p><ul class='leftmenu'>
+    <li style='width:150px'><strong>For queries regarding business with us, feedback and any complaint regarding the products and it's distribution.</strong></li>
+    </ul>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>Post Office Box Address:</p>
+  <p>&nbsp;</p>
+  <p><strong>Production &amp; Processing:</strong></p>
+  <p> Khasra # 128, Village: Kotpar Mahant, </p>
+  <p>Post: Aliganj, Teh-Bareli, District-Raisen Madhya Pradesh 464668</p>
+  <p>&nbsp;</p>
+  <p><strong>Branch Office- </strong></p>
+  <p>&nbsp;</p>
+  <p><strong>Madhya Pradesh    </strong></p>
+  <p>C/o, Walkover Web Solution Pvt. Ltd</p>
+  <p><span jsdisplay="$title||!$laddr||!$addrurl" jsattrs="dir: bidiDir($addrline, true)" jscontent="$addrline" jstcache="73" dir="ltr">505, Capt. C. S. Naidu Arcade,, Near Greater Kailash Hospital, 10/2 Old Palasia, </span>Indore, Madhya Pradesh 452011. </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div jsinstance="0" jsfor="$addrline:i.addressLines;" jstcache="59">
+    <p><strong>Maharastra</strong></p>
+    <p>B/05, Ground Floor, Shrinath Co. Op. Hsg. Society Ltd.<br />
+New Hanuman Nagar, Kandarpada, Dahisar (W) Mumbai-68</p>
+    <p>&nbsp;</p>
+    <div jsinstance="0" jsfor="$addrline:i.addressLines;" jstcache="59"></div>
+    <div jsinstance="*1" jsfor="$addrline:i.addressLines;" jstcache="59"></div>
+</div>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<div id="right-area">
+ <div style="background-image: url(images/contact.jpg); background-repeat:no-repeat" id="header-image">
+   <div id="sec-name">
+     <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','440','height','43','title','Contact us','src','/images/musthead','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','wmode','transparent','flashvars','musthead=Contact us','movie','images/musthead' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="440" height="43" title="Contact us">
+       <param name="movie" value="/images/musthead.swf" />
+       <param name="quality" value="high" />
+       <param name="wmode" value="transparent" />
+       <param name="flashVars" value="musthead=Contact us" />
+       <embed src="images/musthead.swf" width="440" height="43" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="transparent" flashvars="musthead=Contact us"></embed>
+     </object>
+   </noscript></div>
+ </div> 
+ <div id="breadcrumbs"><strong>You are in: </strong><a class='path' href='/'>Home</a> &gt; Contact us &gt; Contact Us</div>
+ <div id="content">
+   <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','400','height','20','title','Contact Us','src','/images/home-header-big','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','flashvars','mainhead=Contact Us','menu','false','wmode','transparent','movie','/images/home-header-big' ); //end AC code
+     </script>
+   <noscript>
+   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="400" height="20" title="sadada">
+     <param name="movie" value="images/home-header-big.swf" />
+     <param name="quality" value="high" />
+     <param name="FlashVars" value="mainhead=Contact Us" />
+     <param name="menu" value="false" />
+     <param name="wmode" value="transparent" />
+     <embed src="images/home-header-big.swf" width="400" height="20" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" flashvars="mainhead=Contact Us" menu="false" wmode="transparent"></embed>
+   </object>
+   </noscript>
+   <h4>Join Us:- Become a  Distributor And Dealer (Madhya Pradesh)</h4>
+   <p>Call: <strong> Head- Sale &amp; Marketing</strong>:</p>
+   <p>Seeds - Organic Pesticides &amp; Fertilizers</p>
+   <p>Mr. Jiten Agrawal</p>
+   <p>+919893371901.</p>
+   <p>Jiten.Agrawal@srkagritech.com</p>
+   <p>&nbsp;</p>
+   <h4>Email:-</h4>
+   <p>For any information regarding the product and farming please mail to-   </p>
+   <p><a href="Info@srkagritech.com">Info@srkagritech.com</a></p>
+   <p>Inquiry Regarding Placing Advance Orders-</p>
+   <p><a href="sales@srkagritech.com">sales@srkagritech.com</a></p>
+   <p>For complaints regarding our product and it's distribution please mail it to-</p>
+   <p><a href="complaint@srkagritech.com">complaint@srkagritech.com</a></p>
+   <h3>&nbsp;</h3>
+ </div>
+</div>
+</div>
+</div>
+<div id="footer">
+  <div id="Srk-Agritech-It"></div>
+<div id="copyright">Optimised for  1024 x 768 pixels screen resolution &nbsp;&nbsp; | &nbsp;&nbsp;<script language="JavaScript" type="text/javascript">
+                <!--
+                document.write('&copy; ' );
+                document.write(new Date().getFullYear());
+                document.write(' SRK AGRITECH INDIA PRIVATE LIMITED - All Rights Reserved');
+                //-->
+          </script>&nbsp;&nbsp; | &nbsp;&nbsp;<a style="color:#FFFFFF; text-decoration:none" href="/sitemap.asp">Sitemap</a></div>
+</div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>
